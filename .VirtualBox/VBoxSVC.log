@@ -1,0 +1,541 @@
+00:00:00.003141 main     VirtualBox COM Server 7.1.10 r169112 win.amd64 (Jun  3 2025 13:11:30) release log
+00:00:00.003143 main     Log opened 2025-10-24T08:28:44.876931700Z
+00:00:00.003144 main     Build Type: release
+00:00:00.003148 main     OS Product: Windows 11
+00:00:00.003148 main     OS Release: 10.0.26100
+00:00:00.003149 main     OS Service Pack: 
+00:00:00.090150 main     DMI Product Name: BMH-WCX9
+00:00:00.105179 main     DMI Product Version: M1060
+00:00:00.105191 main     Firmware type: UEFI
+00:00:00.105658 main     Secure Boot: Disabled
+00:00:00.105672 main     Host RAM: 15706MB (15.3GB) total, 6963MB (6.8GB) available
+00:00:00.105675 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.105676 main     Process ID: 13936
+00:00:00.105676 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.105678 main     Windows Features:
+00:00:00.105679 main       Core Isolation (Memory Integrity): DISABLED
+00:00:00.179595          VirtualBox: object creation starts
+00:00:00.179826          Home directory: 'C:\Users\iidone\.VirtualBox'
+00:00:00.180080          Installed Drivers:
+00:00:00.217214          Loading settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.219736          usbLibGetDevices: Starting USB device enumeration
+00:00:00.226561          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&2844ad3f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:00.226760          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&1e9524f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 2
+00:00:00.226828          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#5&1e9524f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 3
+00:00:00.229645          usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:00.229716          USB: Unknown USB device detected (idVendor: 0x0489, idProduct: 0xe0df)
+00:00:00.229730          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x56f9)
+00:00:00.229738          USB: Unknown USB device detected (idVendor: 0x27c6, idProduct: 0x5125)
+00:00:00.324170          HostDnsMonitor: initializing
+00:00:00.339578          HostDnsMonitor: updating information
+00:00:00.339610          HostDnsMonitor: old information
+00:00:00.339611            no server entries
+00:00:00.339611            no domain set
+00:00:00.339612            no search string entries
+00:00:00.339612          HostDnsMonitor: new information
+00:00:00.339612            server 1: 172.20.10.1
+00:00:00.339613            no domain set
+00:00:00.339613            no search string entries
+00:00:00.343541          VD: VDInit finished with VINF_SUCCESS
+00:00:00.344911          VirtualBox: object created
+00:00:00.527708          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.530260          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:00:00.530600          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.533766          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:00:00.533991          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.536066          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:01:10.831670          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:10.834027          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:02:49.385184          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:49.387520          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:03:13.768082 createBase Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:03:13.771092 createBase Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:03:13.786540          Platform architecture set to 'x86'
+00:03:13.790043          Platform architecture set to 'x86'
+00:03:13.790078          Platform architecture set to 'x86'
+00:03:13.792748          Platform architecture set to 'x86'
+00:03:13.796147          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:03:13.798137          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:03:13.798283          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:03:13.800677          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:03:13.805381          Platform architecture set to 'x86'
+00:03:13.809039          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:03:13.811555          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:03:13.812939          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:03:13.815075          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:03:13.819245          UnattendedInstaller::initInstaller: UnattendedInstaller::savePassedData(): 
+00:03:13.859935          Platform architecture set to 'x86'
+00:03:13.870310          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:03:13.872965          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:03:13.873094          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:03:13.875541          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:03:13.875790          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:03:13.878059          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:03:13.890402          Launched VM: 2018013104 pid: 11448 (0x2cb8) frontend: GUI/Qt name: bardak
+00:03:13.917997          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:03:13.921022          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:03:14.278660          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:14.389843          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:03:15.749690          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:03:15.763255          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:03:18.364511          Platform architecture set to 'x86'
+00:03:18.451328          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:18.456846          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:03:19.180288          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:03:19.237124          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:03:19.512328          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:03:19.515231          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:03:20.551163          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:20.553081          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:03:20.564688          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:03:20.565626          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:03:20.595000          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:03:20.597507          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:03:20.600867          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:03:20.669292          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:20.674832          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:03:20.948663          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:03:20.951798          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:03:21.488092          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:03:21.488770          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:03:21.489464          HostDnsMonitorProxy::GetDomainName: no domain set
+00:03:21.489513          HostDnsMonitorProxy::GetNameServers:
+00:03:21.489518            name server 1: 172.20.10.1
+00:03:21.489552          HostDnsMonitorProxy::GetSearchStrings:
+00:03:21.489557            no search string entries
+00:03:21.511460          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:03:21.537179          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:21.554174          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:03:24.355217          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:03:24.357640          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:03:24.363521          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:24.385697          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:03:25.683680          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:03:25.698811          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:03:25.708402          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:25.717049          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:03:47.108921          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:03:47.111779          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:03:47.121241          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:47.129298          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:03:48.136619          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:03:48.139617          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:03:48.147729          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:48.157314          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:03:51.232103          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:03:51.235422          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:03:51.242753          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:51.254782          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:03:54.073793          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:03:54.087206          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:03:54.097076          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:03:54.110339          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:04:30.002966 dns-monitor HostDnsMonitor: updating information
+00:04:30.003011 dns-monitor HostDnsMonitor: unchanged
+00:04:50.090675          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:04:50.093264          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:04:50.116220          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:04:50.130477          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:04:58.246264          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:04:58.249411          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:04:58.264277          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:04:58.278676          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:05:03.184288          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:05:03.187802          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:05:03.196481          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:05:03.211960          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:05:04.402294          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:05:04.405637          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:05:04.413365          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:05:04.425133          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:05:05.450192          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:05:05.454660          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:05:05.462642          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:05:05.475619          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:25.013027          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:06:25.016629          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:06:25.029324          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:25.043205          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:29.794120          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:06:29.797410          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:06:29.810201          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:29.824968          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:33.834638          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:06:33.839574          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:06:33.848837          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:33.860592          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:53.783302          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:06:53.787166          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:06:53.943610          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:06:53.949187          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:06:53.967862          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:54.018448          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:55.927344          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:56.040430          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:06:56.044729          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:06:56.060914          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:56.080755          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:56.965326          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:06:56.970603          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:06:56.988157          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:57.045766          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:01.544185          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:07:01.654210          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:07:01.659412          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:07:01.680709          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:01.745538          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:05.102822          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:07:05.108545          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:07:05.131837          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:05.179645          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:13.353694          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:07:13.357272          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:07:13.367734          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:13.380722          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:25.167939          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:07:25.268918          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:07:25.272883          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:07:25.296453          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:25.321411          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:25.528378          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:07:25.530919          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:07:25.537180          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:25.550223          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:27.448859          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:07:27.451869          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:07:27.463204          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:27.475614          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:45.593372          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:07:45.607974          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:07:45.617118          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:45.629270          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:47.497441          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:07:47.500276          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:07:47.508417          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:47.518991          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:54.996021          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:07:54.999430          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:07:55.009442          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:55.023502          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:57.043127          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:07:57.045958          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:07:57.054354          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:57.067164          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:08:01.763155          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:08:01.766683          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:08:01.778127          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:08:01.794506          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:09:00.903346          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:09:00.905642          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:09:00.919325          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:09:00.932271          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:09:54.812073          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:09:54.815533          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:09:54.829815          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:09:54.841467          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:09:59.200419          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:09:59.384563          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:09:59.399458          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:09:59.417299          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:10:07.418487          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:10:07.421568          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+00:12:46.234003          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:12:46.237268          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:12:46.247834          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:12:46.296376          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:12:50.623463          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:12:50.705290          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:12:50.710173          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:12:50.721467          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:12:50.737561          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:12:50.967030          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:12:50.970357          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:12:50.976337          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:12:50.988270          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:13:04.207735          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:13:04.212160          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:13:04.227122          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:13:04.255717          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:13:12.243218          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:13:12.324499          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:13:12.328176          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:13:12.339581          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:13:12.355671          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:13:14.404657          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:13:14.421135          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:13:14.428096          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:13:14.441081          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:13:21.512966          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:13:21.515637          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:13:21.524174          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:13:21.533592          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:13:25.460631          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:13:25.533512          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:13:25.547817          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:13:25.557258          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:13:25.573054          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:13:27.368135          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:13:27.373413          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:13:27.386571          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:13:27.403585          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:13:34.593558          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:13:34.596169          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:13:34.607505          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:13:34.617332          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:13:52.502505          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:13:52.505960          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:13:52.526220          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:13:52.539579          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:18:10.076259          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:18:10.079015          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:18:10.091306          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:18:10.103858          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:18:42.372201          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:18:42.374722          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:18:42.386910          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:18:42.400090          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:18:51.961266          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:18:52.052943          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:18:52.067579          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:18:52.079260          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:18:52.097434          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:19:11.669782          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:19:11.683401          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:19:11.694327          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:19:11.705271          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:19:31.793710          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:19:31.797407          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:19:31.805562          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:19:31.814819          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:25:31.046426          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:25:31.049244          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:25:31.057201          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:31.068704          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:26:17.514464          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:26:17.517635          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:26:17.536768          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:26:17.555561          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:30:21.710368          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:30:21.714095          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:30:21.727854          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:30:21.740230          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:30:22.937986          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:30:22.941728          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:30:23.537077          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:30:23.542191          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:30:57.013699          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:30:57.016552          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:30:57.029206          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:30:57.043628          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:31:01.747172          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:31:01.749630          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:31:01.761234          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:31:01.773910          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:31:02.089509          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:31:02.092924          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:31:02.098071          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:31:02.108556          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:31:03.886875          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:31:03.889847          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:31:03.895586          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:31:03.905762          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:32:27.074371          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:32:27.088503          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:32:27.100445          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:32:27.111801          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:33:15.002539 dns-monitor HostDnsMonitor: updating information
+00:33:15.002666 dns-monitor HostDnsMonitor: unchanged
+00:34:30.034146 dns-monitor HostDnsMonitor: updating information
+00:34:30.034186 dns-monitor HostDnsMonitor: unchanged
+00:35:58.468404          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:35:58.471468          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:35:58.481476          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:35:58.493694          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:36:01.827504          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:36:01.832375          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:36:01.837627          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:36:01.847196          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:44:12.421592          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:44:12.435741          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:44:12.444597          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:44:12.454260          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:44:35.943801 dns-monitor HostDnsMonitor: updating information
+00:44:35.943852 dns-monitor HostDnsMonitor: unchanged
+00:51:30.279110          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:51:30.281435          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:51:30.292868          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:51:30.305063          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:51:31.484764          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:51:31.487773          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:51:31.493509          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:51:31.503561          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:56:22.780960          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:56:22.794646          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:56:22.804576          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:56:22.815167          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:58:44.797864          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:58:44.810931          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:58:44.825557          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:58:44.835805          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:58:46.621885          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+00:58:46.624383          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+00:58:46.630296          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:58:46.640763          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:08:12.869709          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+01:08:12.883655          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+01:08:12.898548          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:08:12.908513          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:09:29.320548          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:09:29.429708          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+01:09:29.432511          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+01:09:29.442435          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:09:29.455413          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:14:46.147190 dns-monitor HostDnsMonitor: updating information
+01:14:46.147224 dns-monitor HostDnsMonitor: unchanged
+01:29:43.110168          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+01:29:43.124158          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+01:29:43.132459          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:29:43.158862          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:33:15.003870 dns-monitor HostDnsMonitor: updating information
+01:33:15.003961 dns-monitor HostDnsMonitor: unchanged
+01:38:40.811907          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+01:38:40.825143          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+01:38:40.837518          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:38:40.848517          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:38:49.466284          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+01:38:49.469033          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+01:38:49.476060          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:38:49.486199          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:38:52.673174          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+01:38:52.676360          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+01:38:52.683608          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:38:52.692415          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:38:55.089961          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+01:38:55.092353          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+01:38:55.101118          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:38:55.112553          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:45:54.813353          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+01:45:54.815819          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+01:45:54.822625          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:45:54.832103          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:46:51.340449          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+01:46:51.342625          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+01:46:51.351998          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:46:51.361646          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:47:18.630644 dns-monitor HostDnsMonitor: updating information
+01:47:18.630678 dns-monitor HostDnsMonitor: unchanged
+01:48:43.558909          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+01:48:43.573421          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+01:48:43.583635          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:48:43.596586          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:56:04.457883          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:56:04.536755          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+01:56:04.539860          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+01:56:04.551988          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:56:04.564996          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:12:12.003597          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+02:12:12.006218          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+02:12:12.023280          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:12:12.041463          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:13:18.881018          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+02:13:18.958672          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+02:13:18.962300          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+02:13:18.971372          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:13:18.983678          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:14:36.901253          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+02:14:36.931370          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+02:14:36.934277          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+02:14:36.941612          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:14:36.951227          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:14:53.660446          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+02:14:53.664301          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+02:14:53.671784          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:14:53.681329          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:15:05.820684          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:17:26.857934 dns-monitor HostDnsMonitor: updating information
+02:17:26.857978 dns-monitor HostDnsMonitor: unchanged
+02:19:38.205248          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+02:19:38.208894          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+02:19:38.226418          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:19:38.241038          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:19:44.629959          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+02:19:44.642487          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+02:19:44.652596          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:19:44.666117          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:33:15.003770 dns-monitor HostDnsMonitor: updating information
+02:33:15.003865 dns-monitor HostDnsMonitor: unchanged
+02:36:38.061485          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+02:36:38.075286          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+02:36:38.086866          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:36:38.099256          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:36:44.356377          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+02:36:44.359206          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+02:36:44.368896          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:36:44.381480          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:47:38.400336 dns-monitor HostDnsMonitor: updating information
+02:47:38.400373 dns-monitor HostDnsMonitor: unchanged
+03:00:37.983594          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:00:37.986750          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:00:38.008950          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:00:38.030400          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+03:00:44.735818          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:00:44.748996          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:00:44.762606          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:00:44.778931          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+03:01:03.993349          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:01:03.998725          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+03:01:06.764256          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:01:06.769590          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+03:01:19.293016          Saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:01:19.297695          Finished saving settings file "C:\Users\iidone\.VirtualBox\VirtualBox.xml"
+03:05:33.124296          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:05:33.138381          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:05:33.152090          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:05:33.164870          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+03:06:20.356379          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:06:20.359027          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:06:20.372520          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:06:20.386495          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+03:06:30.998111          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:06:31.011502          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:06:31.020345          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:06:31.045687          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+03:06:32.546388          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:06:32.551082          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:06:32.566385          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:06:32.599189          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+03:06:33.436046          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:06:33.438247          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:06:33.443733          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:06:33.466805          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+03:06:37.295853          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:06:37.299027          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:06:37.304927          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:06:37.337148          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+03:06:46.107017          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:06:46.110858          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:06:46.121592          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:06:46.162615          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+03:08:02.480719          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:08:02.495233          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:08:02.506395          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:08:02.517310          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+03:08:03.372840          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:08:03.375437          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:08:03.383117          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:08:03.393832          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+03:09:42.484308          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:09:42.498507          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+03:09:42.631401          Saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox" with version "1.19-windows"
+03:09:42.634662          Finished saving settings file "C:\Users\iidone\VirtualBox VMs\bardak\bardak.vbox"
+03:09:42.682373          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+03:09:42.724379          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:09:42.748632          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+03:09:43.709149          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:09:43.732670          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+03:09:51.580110 main     VirtualBox: object deletion starts
+03:09:51.580646 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\iidone\VirtualBox VMs\bardak\bardak.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+03:09:51.584754 main     HostDnsMonitor: shutting down ...
+03:09:51.584974 main     HostDnsMonitor: shut down
+03:09:51.593896 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+03:09:51.594286 main     VirtualBox: object deleted

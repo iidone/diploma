@@ -1,0 +1,19 @@
+03:00:38.424781 Log continuation - Log started 2025-10-24T08:28:45.372445800Z
+03:00:45.179532 GUI: UIMediumEnumerator: Medium-enumeration finished!
+03:01:03.977095 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1920x1080
+03:01:03.977201 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x0 x 1920x1032
+03:01:06.767136 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1280x720
+03:01:06.767262 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x0 x 1280x672
+03:01:19.353363 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1536x864
+03:01:19.353412 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x0 x 1536x816
+03:05:33.569111 GUI: UIMediumEnumerator: Medium-enumeration finished!
+03:06:20.790286 GUI: UIMediumEnumerator: Medium-enumeration finished!
+03:06:31.438188 GUI: UIMediumEnumerator: Medium-enumeration finished!
+03:06:32.981959 GUI: UIMediumEnumerator: Medium-enumeration finished!
+03:06:33.861793 GUI: UIMediumEnumerator: Medium-enumeration finished!
+03:06:37.723125 GUI: UIMediumEnumerator: Medium-enumeration finished!
+03:06:46.538414 GUI: UIMediumEnumerator: Medium-enumeration finished!
+03:08:02.924282 GUI: UIMediumEnumerator: Medium-enumeration finished!
+03:08:03.799708 GUI: UIMediumEnumerator: Medium-enumeration finished!
+03:09:46.124063 GUI: UICommon: Handling aboutToQuit request..
+03:09:47.033515 GUI: UICommon: aboutToQuit request handled!
