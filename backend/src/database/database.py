@@ -4,7 +4,7 @@ from sqlalchemy.pool import NullPool
 from src.models import *
 
 
-DATABASE_URL = "YOUR_DATABASE_URL"
+DATABASE_URL = "postgresql+asyncpg://postgres:postgres@localhost/diploma"
 
 engine = create_async_engine(DATABASE_URL, echo=True, poolclass=NullPool)
 
