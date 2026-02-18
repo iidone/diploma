@@ -3,14 +3,14 @@ from typing import Optional
 from datetime import date, datetime
 
 
-class CreatePortfolio(BaseModel):
+class CreateService(BaseModel):
     name: str
     description: Optional[str] = None
     photo_url: Optional[str] = None
     price: Optional[str] = None
 
 
-class PortfolioResponse(BaseModel):
+class ServicesResponse(BaseModel):
     id: int
     name: str
     description: Optional[str] = None

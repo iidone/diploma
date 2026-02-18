@@ -7,7 +7,7 @@ class CreateUser(BaseModel):
     password: str
     first_name: str
     last_name: str
-    patronymic: str
+    patronymic: Optional[str] = None
 
     @field_validator('password')
     @classmethod
@@ -16,28 +16,18 @@ class CreateUser(BaseModel):
             raise ValueError('Password must be at least 6 characters long')
         return v
 
-
 class UserResponse(BaseModel):
     id: int
     email: str
-    password: str
     first_name: str
     last_name: str
-    patronymic: str
+    patronymic: Optional[str] = None
     date_of_reg: date
     role: str
 
     model_config = ConfigDict(from_attributes=True)
 
-    
-
-class TokenResponse(BaseModel):
+class LoginResponse(BaseModel):
     access_token: str
     token_type: str
-    user: UserResponse
-
-class VerifyEmailRequest(BaseModel):
-    token: str
-
-class ResendVerificationRequest(BaseModel):
-    email: EmailStr
+    user_info: dict
