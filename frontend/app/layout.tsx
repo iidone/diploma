@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
+import { ScrollToTop } from "@/components/ScrollToTop";
+import { AuthButton } from "@/components/AuthButton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +30,42 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="bg-slate-950 h-16 flex items-center justify-center gap-0 px-4 select-none">
+
+          <Link href="/#" className="group transition-colors duration-300">
+            <div className="flex items-center gap-0 px-4">
+              <h1 className="font-bold text-slate-400 text-2xl transition-colors duration-300 group-hover:text-slate-500">
+                CRAFT
+              </h1>
+              <h1 className="font-bold text-white text-2xl transition-colors duration-300 group-hover:text-slate-300">
+                SIGNS
+              </h1>
+            </div>
+          </Link>
+
+          <Link href="/#welcome" className="mx-4 hover:text-slate-300 transition-colors">
+            ГЛАВНАЯ
+          </Link>
+          <Link href="/#portfolio" className="mx-4 hover:text-slate-300 transition-colors">
+            НАШИ РАБОТЫ
+          </Link>
+          <Link href="/#services" className="mx-4 hover:text-slate-300 transition-colors">
+            УСЛУГИ
+          </Link>
+          <Link href="/#contacts" className="mx-4 hover:text-slate-300 transition-colors">
+            КОНТАКТЫ
+          </Link>
+          <Link href="/#delivery" className="mx-4 hover:text-slate-300 transition-colors">
+            ДОСТАВКА
+          </Link>
+          <Link href="/#ie" className="mx-4 hover:text-slate-300 transition-colors">
+            ИП ВИСТЯКОВ Д. Г.
+          </Link>
+          <AuthButton />
+        </header>
         {children}
+        <ScrollToTop />
+        <footer className="bg-slate-950 h-20"></footer>
       </body>
     </html>
   );

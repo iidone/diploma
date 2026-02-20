@@ -1,15 +1,21 @@
 import { ProductCard } from "@/components/ProductCard";
+import { Portfolio } from "@/components/sections/Portfolio";
+import { Contacts } from "@/components/sections/Contacts";
+import { Services } from "@/components/sections/Services";
+import { Delivery } from "@/components/sections/Delivery";
+import { IE } from "@/components/sections/IE";
+import { Welcome } from "@/components/sections/Welcome";
 
 export default function Home() {
   return (
-    <main className="p-10 bg-slate-50 min-h-screen">
-      <h1 className="text-4xl font-bold mb-8">Рекламная компания</h1>
-      
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-
-        <ProductCard name="Вывеска неоновая" price={5000} />
-        <ProductCard name="Печать баннера" price={1200} />
-        <ProductCard name="Визитки (100 шт)" price={800} />
+    <main className="p-10 bg-white min-h-screen">
+      <div className="flex flex-col gap-4">
+        <Welcome />
+        <Portfolio />
+        <Services />
+        <Contacts />
+        <Delivery />
+        <IE />
       </div>
     </main>
   );
