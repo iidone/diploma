@@ -9,7 +9,7 @@ import { Advantages } from "@/components/Advantages";
 
 export default function Home() {
   return (
-    <main className="p-10 bg-white min-h-screen">
+    <main className="p-10 min-h-screen">
       <div className="flex flex-col gap-4">
         <Welcome />
         <Advantages />

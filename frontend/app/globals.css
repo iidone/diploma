@@ -21,8 +21,14 @@
 
 body {
   background: var(--background);
+  background-image: url('/images/paper-texture.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 }
 
 html {

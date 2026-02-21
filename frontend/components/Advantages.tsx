@@ -67,7 +67,7 @@ export const Advantages = () => {
                         const card = e.currentTarget.querySelector('.icon-card') as HTMLDivElement
                         const icon = e.currentTarget.querySelector('svg') as SVGElement
                         if (card) {
-                          card.style.backgroundColor = '#293448'
+                          card.style.backgroundColor = '#45556c'
                           card.style.borderColor = '#334155'
                           card.style.boxShadow = '0 20px 25px -5px rgb(0 0 0 / 0.1)'
                         }
@@ -81,7 +81,7 @@ export const Advantages = () => {
                           card.style.borderColor = 'rgb(203, 213, 225)'
                           card.style.boxShadow = '0 10px 15px -3px rgb(0 0 0 / 0.1)'
                         }
-                        if (icon) icon.style.color = '#0f172a'
+                        if (icon) icon.style.color = '#314158'
                       }}
                     >
                       <div 

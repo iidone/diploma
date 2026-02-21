@@ -1,5 +1,5 @@
 export const Welcome = () => (
-  <section id="welcome" className="h-screen-2 bg-slate-800 rounded-4xl flex flex-col justify-center">
+  <section id="welcome" className="h-screen-2 bg-slate-800/90 rounded-4xl flex flex-col justify-center">
     <div className="select-none p-16">
       <div className="flex items-center gap-0 group cursor-default">
         <h1 className="font-bold text-slate-400 text-6xl transition-colors duration-300 group-hover:text-slate-500">
