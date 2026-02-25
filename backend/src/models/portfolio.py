@@ -11,7 +11,6 @@ class PortfolioModel(Base):
     name: Mapped[str] = mapped_column(index=True)
     description: Mapped[str] = mapped_column(index=True)
     photo_url: Mapped[Optional[str]] = mapped_column(String(500))
-    price: Mapped[Optional[str]] = mapped_column()
 
     def __repr__(self) -> str:
         return f"Portfolio(id={self.id}, name='{self.name}')"

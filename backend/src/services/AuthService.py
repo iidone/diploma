@@ -20,7 +20,10 @@ load_dotenv(env_path)
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 def verify_password(plain_password: str, hashed_password: str):
-    return pwd_context.verify(plain_password, hashed_password)
+    password_to_verify = plain_password
+    if len(plain_password.encode('utf-8')) > 72:
+        password_to_verify = plain_password[:72]
+    return pwd_context.verify(password_to_verify, hashed_password)
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="v1/users/login")
 
@@ -97,6 +100,8 @@ async def get_current_user(
     return user
 
 def get_password_hash(password: str) -> str:
+    if len(password.encode('utf-8')) > 72:
+        password = password[:72]
     return pwd_context.hash(password)
 
 async def check_email_exists(email: str, session: AsyncSession) -> bool:

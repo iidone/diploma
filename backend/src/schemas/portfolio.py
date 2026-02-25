@@ -7,7 +7,6 @@ class CreatePortfolio(BaseModel):
     name: str
     description: Optional[str] = None
     photo_url: Optional[str] = None
-    price: Optional[str] = None
 
 
 class PortfolioResponse(BaseModel):
@@ -15,7 +14,6 @@ class PortfolioResponse(BaseModel):
     name: str
     description: Optional[str] = None
     photo_url: Optional[str] = None
-    price: Optional[str] = None
 
     model_config = ConfigDict(from_attributes=True)
 
