@@ -18,7 +18,7 @@ from datetime import date
 router = APIRouter(prefix="/v1/portfolio_and_services")
 
 ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png', 'webp'}
-MAX_FILE_SIZE = 5 * 1024 * 1024
+MAX_FILE_SIZE = 20 * 1024 * 1024
 UPLOAD_DIR = "static/uploads/portfolio"
 
 def allowed_file(filename: str) -> bool:
@@ -54,7 +54,7 @@ async def create_portfolio(
     description: Optional[str] = Form(None),
     photo_url: Optional[str] = Form(None),
     photo_file: Optional[UploadFile] = File(None),
-    current_user: UsersModel = Depends(get_current_user)
+    # current_user: UsersModel = Depends(get_current_user)  # removed to match create_service
 ):
     try:
         final_photo_url = photo_url
@@ -104,14 +104,49 @@ async def create_portfolio(
         raise HTTPException(status_code=500, detail=f'error to create portfolio element: {str(e)}')
     
 
-@router.post("/create_service", response_model=ServicesResponse, tags=['Портфолио и услуги'], summary=['Добавить услугу'])
-async def create_service(session: SessionDep, portfolio_data: CreateService):
+@router.post("/create_service", response_model=ServicesResponse, tags=['Портфолио и услуги'], summary=['Добавить услугу (с загрузкой файла)'])
+async def create_service(
+    session: SessionDep,
+    name: str = Form(...),
+    description: Optional[str] = Form(None),
+    price: Optional[str] = Form(None),
+    photo_url: Optional[str] = Form(None),
+    photo_file: Optional[UploadFile] = File(None)
+):
     try:
+        final_photo_url = photo_url
+        SERVICES_UPLOAD_DIR = "static/uploads/services"
+
+        if photo_file:
+            contents = await photo_file.read()
+            if len(contents) > MAX_FILE_SIZE:
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Размер файла превышает {MAX_FILE_SIZE // (1024 * 1024)}MB"
+                )
+            
+            if not allowed_file(photo_file.filename):
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Недопустимый формат файла. Разрешены: {', '.join(ALLOWED_EXTENSIONS)}"
+                )
+
+            file_ext = get_file_extension(photo_file.filename)
+            unique_filename = f"{uuid.uuid4()}.{file_ext}"
+
+            file_path = os.path.join(SERVICES_UPLOAD_DIR, unique_filename)
+            os.makedirs(SERVICES_UPLOAD_DIR, exist_ok=True)
+            
+            with open(file_path, "wb") as f:
+                f.write(contents)
+            
+            final_photo_url = f"/static/uploads/services/{unique_filename}"
+
         service = ServicesModel(
-            name=portfolio_data.name,
-            description=portfolio_data.description,
-            photo_url=portfolio_data.photo_url,
-            price=portfolio_data.price
+            name=name,
+            description=description or "",
+            photo_url=final_photo_url,
+            price=price
         )
 
         session.add(service)
@@ -121,6 +156,8 @@ async def create_service(session: SessionDep, portfolio_data: CreateService):
 
         return service
 
+    except HTTPException:
+        raise
     except Exception as e:
         await session.rollback()
         raise HTTPException(status_code=500, detail=f'error to create service: {str(e)}')
