@@ -1,8 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef, useCallback } from "react";
-import KeenSlider from "keen-slider";
-import "keen-slider/keen-slider.min.css";
+import { useEffect, useState, useRef } from "react";
 
 interface PortfolioItem {
   id: number;
@@ -18,9 +16,7 @@ export const Portfolio = () => {
   const [selectedItem, setSelectedItem] = useState<PortfolioItem | null>(null);
   const [isClosing, setIsClosing] = useState(false);
 
-  const sliderRef = useRef<HTMLDivElement>(null);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const sliderInstance = useRef<any>(null);
+
 
   useEffect(() => {
     const fetchPortfolio = async () => {
@@ -41,31 +37,7 @@ export const Portfolio = () => {
     fetchPortfolio();
   }, []);
 
-  useEffect(() => {
-    if (!sliderRef.current || portfolioItems.length === 0) return;
 
-    sliderInstance.current = new KeenSlider(sliderRef.current, {
-      loop: true,
-      slides: {
-        perView: 5,
-        spacing: 10,
-      },
-      breakpoints: {
-        "(max-width: 768px)": {
-          slides: { perView: 1, spacing: 10 },
-        },
-        "(max-width: 1024px)": {
-          slides: { perView: 3, spacing: 10 },
-        },
-      },
-    });
-
-    return () => {
-      if (sliderInstance.current) {
-        sliderInstance.current.destroy();
-      }
-    };
-  }, [portfolioItems.length]);
 
   const handleCardClick = (item: PortfolioItem) => {
     setSelectedItem(item);
@@ -106,58 +78,23 @@ export const Portfolio = () => {
 
   return (
     <>
-      <section id="portfolio" className="min-h-screen bg-gradient-to-br from-slate-700 via-slate-600 to-slate-800 rounded-4xl relative overflow-hidden select-none">
-        <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-black/20 to-transparent"></div>
-        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/20 to-transparent"></div>
+  <section id="portfolio" className="min-h-[70vh] md:min-h-screen w-full max-w-6xl mx-auto py-6 md:py-10 px-4 md:px-8 overflow-hidden relative select-none portfolio-diagonal bg-gradient-to-br from-slate-900/95 via-slate-800/80 to-slate-900/95 rounded-4xl">
+        <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-black/30 to-transparent z-10"></div>
+        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/30 to-transparent z-10"></div>
         
-        <div className="relative z-10 pt-12 pb-8 text-center">
-          <h2 className="text-5xl select-none md:text-6xl font-bold text-white tracking-wider uppercase drop-shadow-lg">
+        <div className="relative z-20 pt-8 pb-6 md:pb-10 text-center px-4 md:px-6">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl select-none font-bold text-white tracking-wider uppercase drop-shadow-2xl animate-fade-in-up">
             Наши <span className="text-amber-400">Работы</span>
           </h2>
-          <p className="text-slate-300 mt-4 text-lg select-none font-light">Все наши клиенты остаются довольными.</p>
+          <p className="text-base md:text-lg select-none font-light text-slate-300 animate-fade-in-up animation-delay-200">Все наши клиенты остаются довольными.</p>
         </div>
 
-        <div className="relative z-20 flex items-center justify-center px-4 md:px-20">
-          <button
-            onClick={() => sliderInstance.current?.prev()}
-            className="absolute cursor-pointer left-0 md:left-4 z-30 w-12 h-12 md:w-12 md:h-12 rounded-full flex items-center justify-center bg-white/20 hover:bg-white/40 text-white backdrop-blur-sm transition-all duration-300"
-            aria-label="Previous"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 md:w-6 md:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-
-          <div
-            ref={sliderRef}
-            className="keen-slider flex items-center justify-center py-8 w-[70%] md:w-[50%] overflow-visible"
-            style={{ minHeight: "500px" }}
-          >
-            {portfolioItems.map((item) => (
-              <div
-                key={item.id}
-                className="keen-slider__slide flex-shrink-0 select-none cursor-pointer"
-                style={{
-                  width: "20%",
-                  minWidth: "180px",
-                  height: "420px",
-                }}
-                onClick={() => handleCardClick(item)}
-              >
-                <PortfolioCard item={item} />
-              </div>
-            ))}
-          </div>
-
-          <button
-            onClick={() => sliderInstance.current?.next()}
-            className="absolute cursor-pointer right-0 md:right-4 z-30 w-12 h-12 md:w-12 md:h-12 rounded-full flex items-center justify-center bg-white/20 hover:bg-white/40 text-white backdrop-blur-sm transition-all duration-300"
-            aria-label="Next"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 md:w-6 md:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
+        <div className="relative portfolio-grid mb-16 md:mb-16">
+          {portfolioItems.map((item, index) => (
+            <div key={item.id} className="animate-fade-in-up animation-delay-[50ms] md:animation-delay-[100ms]" style={{ animationDelay: `${index * 100}ms` }}>
+              <PortfolioCard item={item} onClick={handleCardClick} />
+            </div>
+          ))}
         </div>
       </section>
 
@@ -189,7 +126,7 @@ export const Portfolio = () => {
               className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
             />
             <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
-              <h3 className="text-3xl font-bold text-white mb-2">{selectedItem.name}</h3>
+      <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">{selectedItem.name}</h3>
               {selectedItem.description && (
                 <p className="text-slate-300">{selectedItem.description}</p>
               )}
@@ -201,12 +138,13 @@ export const Portfolio = () => {
   );
 };
 
-const PortfolioCard = ({ item }: { item: PortfolioItem }) => {
+const PortfolioCard = ({ item, onClick }: { item: PortfolioItem; onClick: (item: PortfolioItem) => void }) => {
   const imageSrc = item.photo_url ? `/api${item.photo_url}` : "/images/paper-texture.jpg";
 
   return (
-    <div
-      className="group relative overflow-hidden rounded-3xl transition-all duration-500 shadow-xl w-full h-full select-none hover:shadow-2xl hover:shadow-amber-400/30"
+    <div 
+      className="group relative overflow-hidden rounded-3xl transition-all duration-500 shadow-xl max-w-[22rem] mx-auto h-[300px] w-full select-none cursor-pointer hover:shadow-2xl hover:shadow-amber-400/40 portfolio-card glow-effect"
+      onClick={() => onClick(item)}
     >
       <div className="absolute inset-0 overflow-hidden rounded-3xl">
         <img 
@@ -217,28 +155,28 @@ const PortfolioCard = ({ item }: { item: PortfolioItem }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent transition-opacity duration-500 select-none opacity-60 group-hover:opacity-30" />
       </div>
 
-      <div className="absolute inset-0 flex flex-col justify-end p-4 md:p-5 select-none">
-        <h3 className="text-white mb-1 transition-all duration-500 select-none text-lg md:text-xl font-bold group-hover:-translate-y-2">
+      <div className="absolute inset-0 flex flex-col justify-end p-6 select-none">
+        <h3 className="text-white mb-2 transition-all duration-500 select-none text-base md:text-lg font-bold group-hover:-translate-y-2">
           {item.name}
         </h3>
         
         {item.description && (
-          <p className="text-slate-300 text-xs line-clamp-2 transform translate-y-0 transition-all duration-500 delay-75 group-hover:-translate-y-2 select-none">
+          <p className="text-slate-300 text-sm line-clamp-2 transform translate-y-0 transition-all duration-500 delay-75 group-hover:-translate-y-2 select-none">
             {item.description}
           </p>
         )}
 
-        <div className="mt-2 md:mt-3 opacity-0 transform translate-y-4 transition-all duration-500 delay-100 group-hover:opacity-100 group-hover:translate-y-0 select-none">
-          <span className="inline-flex items-center gap-2 text-amber-400 font-medium text-xs md:text-sm select-none">
+        <div className="mt-4 opacity-0 transform translate-y-4 transition-all duration-500 delay-100 group-hover:opacity-100 group-hover:translate-y-0 select-none">
+          <span className="inline-flex items-center gap-2 text-amber-400 font-medium text-sm select-none">
             Нажмите для просмотра
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-3 h-3 md:w-4 md:h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
           </span>
         </div>
       </div>
 
-      <div className="absolute inset-0 border-2 rounded-3xl transition-all duration-500 select-none border-white/0 group-hover:border-amber-400/50" />
+      <div className="absolute inset-0 border-2 rounded-3xl transition-all duration-500 select-none border-transparent group-hover:border-amber-400/60" />
     </div>
   );
 };

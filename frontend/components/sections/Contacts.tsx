@@ -6,12 +6,12 @@ export const Contacts = () => {
   const defaultCoords = [55.7558, 37.6173];
 
   return (
-    <section id="contacts" className="min-h-screen bg-gradient-to-br from-slate-500/95 via-slate-400/95 to-slate-300/95 rounded-4xl relative overflow-hidden select-none py-12 md:py-20">
-      <div className="relative z-10 text-center mb-16 md:mb-24 px-4">
-        <h2 className="text-5xl md:text-6xl font-bold text-white tracking-wider uppercase drop-shadow-2xl mb-6">
+  <section id="contacts" className="min-h-[70vh] md:min-h-screen py-6 md:py-12 px-4 md:px-8 bg-gradient-to-br from-slate-500/95 via-slate-400/95 to-slate-300/95 rounded-4xl relative overflow-hidden select-none">
+      <div className="relative z-10 text-center mb-8 md:mb-16 px-4">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-wider uppercase drop-shadow-2xl mb-4 md:mb-6">
           <span className="text-slate-200">Свяжитесь</span> <span className="text-amber-400">с нами</span>
         </h2>
-        <p className="text-xl md:text-2xl text-slate-200 font-light max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl font-light text-slate-200 max-w-xl mx-auto md:leading-relaxed leading-relaxed">
           Готовы обсудить ваш проект? Оставьте заявку или позвоните!
         </p>
       </div>
@@ -81,10 +81,10 @@ export const Contacts = () => {
 
           <div className="group">
             <div className="p-8 md:p-12 bg-white/5 backdrop-blur-md rounded-3xl border-2 border-white/10 hover:border-amber-400/50 transition-all duration-500 hover:shadow-2xl hover:shadow-amber-400/20">
-              <h3 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center">Оставить заявку</h3>
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-4 md:mb-6 text-center">Оставить заявку</h3>
               <form className="space-y-4">
-                <input type="text" placeholder="Ваше имя" className="w-full p-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-slate-300 focus:border-amber-400 focus:outline-none transition-all duration-300 text-lg" />
-                <input type="tel" placeholder="+7 (___) ___-__-__" className="w-full p-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-slate-300 focus:border-amber-400 focus:outline-none transition-all duration-300 text-lg" />
+                <input type="text" placeholder="Ваше имя" className="w-full p-3 md:p-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-slate-400 focus:border-amber-400 focus:outline-none transition-all duration-300 text-base md:text-lg" />
+                <input type="tel" placeholder="+7 (___) ___-__-__" className="w-full p-3 md:p-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-slate-400 focus:border-amber-400 focus:outline-none transition-all duration-300 text-base md:text-lg" />
                 <textarea placeholder="Расскажите о проекте" rows={4} className="w-full p-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-slate-300 focus:border-amber-400 focus:outline-none transition-all duration-300 resize-vertical text-lg" />
                 <button type="submit" className="w-full bg-amber-500 hover:bg-amber-400 text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 hover:shadow-lg hover:shadow-amber-400/50 transform hover:-translate-y-1">
                   Отправить заявку
@@ -96,8 +96,8 @@ export const Contacts = () => {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4">
-        <h3 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center drop-shadow-lg">Наше расположение</h3>
-        <div className="w-full h-[500px] md:h-[600px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 backdrop-blur-sm bg-gradient-to-b from-white/5 to-transparent">
+        <h3 className="text-2xl md:text-3xl font-bold text-white mb-6 md:mb-8 text-center drop-shadow-lg">Наше расположение</h3>
+        <div className="w-full h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 backdrop-blur-sm bg-gradient-to-b from-white/5 to-transparent">
           <YMaps query={{ apikey: process.env.NEXT_PUBLIC_YANDEX_MAP_API_KEY || "demo" }}>
             <Map 
               state={{ center: defaultCoords, zoom: 12 }} 

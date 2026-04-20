@@ -2,7 +2,6 @@
 
 import { useEffect, useState, useRef } from "react";
 import KeenSlider from "keen-slider";
-import "keen-slider/keen-slider.min.css";
 
 interface ServiceItem {
   id: number;
@@ -106,15 +105,15 @@ export const Services = () => {
 
   return (
     <>
-      <section id="services" className="min-h-screen bg-gradient-to-br from-slate-600 via-slate-500 to-slate-400 rounded-4xl relative overflow-hidden select-none">
+  <section id="services" className="min-h-[70vh] md:min-h-screen py-6 md:py-10 px-4 md:px-8 bg-gradient-to-br from-slate-600 via-slate-500 to-slate-400 rounded-4xl relative overflow-hidden select-none">
         <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-black/20 to-transparent"></div>
         <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/20 to-transparent"></div>
         
-        <div className="relative z-10 pt-12 pb-8 text-center">
-          <h2 className="text-5xl select-none md:text-6xl font-bold text-white tracking-wider uppercase drop-shadow-lg">
+        <div className="relative z-10 pt-8 pb-6 text-center">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl select-none font-bold text-white tracking-wider uppercase drop-shadow-lg">
             Наши <span className="text-amber-400">Услуги</span>
           </h2>
-          <p className="text-slate-300 mt-4 text-lg select-none font-light">Качественно. Надежно. В срок.</p>
+          <p className="text-base font-light select-none text-slate-300 mt-2 md:mt-4">Качественно. Надежно. В срок.</p>
         </div>
 
         <div className="relative z-20 flex items-center justify-center px-4 md:px-20">
@@ -131,7 +130,7 @@ export const Services = () => {
           <div
             ref={sliderRef}
             className="keen-slider flex items-center justify-center py-8 w-[70%] md:w-[50%] overflow-visible"
-            style={{ minHeight: "500px" }}
+            style={{ minHeight: "400px" }}
           >
             {services.map((item) => (
               <div
@@ -140,7 +139,7 @@ export const Services = () => {
                 style={{
                   width: "20%",
                   minWidth: "180px",
-                  height: "420px",
+                  height: "280px",
                 }}
                 onClick={() => handleCardClick(item)}
               >
@@ -189,12 +188,12 @@ export const Services = () => {
               className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
             />
             <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
-              <h3 className="text-3xl font-bold text-white mb-2">{selectedService.name}</h3>
+        <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">{selectedService.name}</h3>
               {selectedService.description && (
                 <p className="text-slate-300 mb-4">{selectedService.description}</p>
               )}
               {selectedService.price && (
-                <div className="text-2xl font-bold text-amber-400">{selectedService.price}</div>
+              <div className="text-xl md:text-2xl font-bold text-amber-400">{selectedService.price}</div>
               )}
             </div>
           </div>
@@ -219,7 +218,7 @@ const ServiceCard = ({ item }: { item: ServiceItem }) => {
       </div>
 
       <div className="absolute inset-0 flex flex-col justify-end p-4 md:p-5 select-none">
-        <h3 className="text-white mb-1 transition-all duration-500 select-none text-lg md:text-xl font-bold group-hover:-translate-y-2">
+        <h3 className="text-white mb-1 transition-all duration-500 select-none text-base md:text-lg font-bold group-hover:-translate-y-2">
           {item.name}
         </h3>
         

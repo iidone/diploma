@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { AuthButton } from "@/components/AuthButton";
@@ -36,10 +36,10 @@ export default function RootLayout({
 
             <Link href="/#" className="group transition-colors duration-300">
               <div className="flex items-center gap-0 px-4">
-                <h1 className="font-bold text-slate-400 text-2xl transition-colors duration-300 group-hover:text-slate-500">
+                <h1 className="font-bold text-slate-400 text-xl tracking-wider uppercase transition-colors duration-300 group-hover:text-slate-500">
                   CRAFT
                 </h1>
-                <h1 className="font-bold text-white text-2xl transition-colors duration-300 group-hover:text-slate-300">
+                <h1 className="font-bold text-white text-xl tracking-wider uppercase transition-colors duration-300 group-hover:text-slate-300">
                   SIGNS
                 </h1>
               </div>

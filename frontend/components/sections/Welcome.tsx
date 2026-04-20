@@ -1,20 +1,20 @@
 import Link from "next/link";
 
 export const Welcome = () => (
-  <section id="welcome" className="h-screen-2 bg-slate-800/90 rounded-4xl flex flex-col justify-center">
-    <div className="select-none p-16 flex gap-12">
+  <section id="welcome" className="min-h-[40vh] md:min-h-screen py-3 md:py-6 px-4 md:px-8 bg-slate-800/90 rounded-4xl flex flex-col items-center justify-center">
+    <div className="select-none p-8 md:p-12 flex gap-8 md:gap-12 max-w-6xl mx-auto w-full">
       <div className="flex-1">
         <div className="flex items-center gap-0 group cursor-default">
-          <h1 className="font-bold text-slate-400 text-6xl transition-colors duration-300 group-hover:text-slate-500">
+          <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl tracking-wider uppercase transition-colors duration-300 group-hover:text-slate-500">
             CRAFT
           </h1>
-          <h1 className="font-bold text-white text-6xl transition-colors duration-300 group-hover:text-slate-300">
+          <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl tracking-wider uppercase transition-colors duration-300 group-hover:text-slate-300">
             SIGNS
           </h1>
         </div>
 
-        <div className="max-w-3xl my-6">
-          <p className="text-xl text-slate-300 leading-relaxed">
+        <div className="max-w-2xl my-4">
+          <p className="text-lg md:text-xl font-light text-slate-300 md:leading-relaxed leading-relaxed">
             Мы — рекламная производственная компания <span className="text-white font-medium">CraftSigns</span>, 
             которая изготавливает красивые баннеры, объёмные буквы, неоновые вывески и многое другое.
           </p>
@@ -25,7 +25,7 @@ export const Welcome = () => (
             ПОЧЕМУ ИМЕННО МЫ:
           </p>
 
-          <ul className="grid grid-cols-2 gap-y-6 gap-x-12">
+          <ul className="grid grid-cols-2 gap-y-4 gap-x-8 md:gap-y-6 md:gap-x-12">
             {[
               "Надежность и качество",
               "Быстрое выполнение заказов",
@@ -33,7 +33,7 @@ export const Welcome = () => (
               "Уважительное отношение к клиентам"
             ].map((text, index) => (
               <li key={index} className="flex items-center gap-3 text-white text-lg">
-                <span className="w-2 h-2 rounded-full bg-yellow-400 shadow-[0_0_8px_rgba(250,204,21,0.6)] flex-shrink-0" />
+                <span className="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-yellow-400 shadow-[0_0_8px_rgba(250,204,21,0.6)] flex-shrink-0" />
                 {text}
               </li>
             ))}
