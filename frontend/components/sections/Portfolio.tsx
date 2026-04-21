@@ -143,7 +143,7 @@ const PortfolioCard = ({ item, onClick }: { item: PortfolioItem; onClick: (item:
 
   return (
     <div 
-      className="group relative overflow-hidden rounded-3xl transition-all duration-500 shadow-xl max-w-[22rem] mx-auto h-[300px] w-full select-none cursor-pointer hover:shadow-2xl hover:shadow-amber-400/40 portfolio-card glow-effect"
+      className="group relative overflow-hidden rounded-3xl transition-all duration-500 shadow-xl max-w-[22rem] mx-auto h-[300px] w-full select-none cursor-pointer hover:shadow-2xl hover:shadow-amber-400/40 portfolio-card"
       onClick={() => onClick(item)}
     >
       <div className="absolute inset-0 overflow-hidden rounded-3xl">
