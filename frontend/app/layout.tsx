@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { AuthButton } from "@/components/AuthButton";
 import { AuthProvider } from "@/contexts/AuthContext";
+import { ChatWidget } from "@/components/ChatWidget";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -67,6 +68,7 @@ export default function RootLayout({
           </header>
           {children}
           <ScrollToTop />
+          <ChatWidget />
           <footer className="bg-slate-950 h-20"></footer>
         </AuthProvider>
       </body>

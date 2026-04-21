@@ -115,3 +115,5 @@ async def login_user(
             status_code=500,
             detail="Ошибка авторизации"
         )
+    
+
