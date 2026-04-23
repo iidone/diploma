@@ -44,7 +44,7 @@ async def send_message(
         history_msgs = history_result.scalars().all()
         ai_history = [{"role": m.role, "content": m.content} for m in reversed(history_msgs)]
 
-        ai_text = await ai_service.get_answer(chat_data.message, history=ai_history)
+        ai_text = await ai_service.get_answer(chat_data.message, session, history=ai_history)
 
         ai_message = ChatMessages(
             chat_id=chat_session.id,

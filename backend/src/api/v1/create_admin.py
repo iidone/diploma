@@ -5,7 +5,7 @@ from src.models.users import UsersModel
 from src.services.AuthService import get_current_user
 from pydantic import BaseModel
 
-router = APIRouter(prefix="/admin", tags=['Админ панель'])
+router = APIRouter(prefix="/v1/admin", tags=['Админ панель'])
 
 class CreateAdminRequest(BaseModel):
     email: str

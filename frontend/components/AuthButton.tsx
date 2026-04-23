@@ -114,7 +114,7 @@ export const AuthButton = () => {
   if (user) {
     return (
       <div className="flex items-center gap-2 ml-4">
-        <span className="text-slate-300 text-sm">
+        <span className="text-slate-300 text-sm mr-4">
           {user.first_name} {user.last_name}
         </span>
         <button

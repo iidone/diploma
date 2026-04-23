@@ -11,7 +11,7 @@ from pydantic import BaseModel
 from typing import Dict, List
 import json
 
-router = APIRouter(prefix="/admin", tags=['Админ панель'])
+router = APIRouter(prefix="/v1/admin", tags=['Админ панель'])
 
 @router.get("/users", response_model=List[UserResponse])
 async def get_all_users_admin(session: SessionDep, current_user: UsersModel = Depends(get_current_user)):
@@ -25,23 +25,37 @@ async def get_all_users_admin(session: SessionDep, current_user: UsersModel = De
     except Exception as e:
         raise HTTPException(status_code=500, detail=f'Error getting users: {str(e)}')
 
-@router.get("/bot-config", response_model=BotConfigResponse)
-async def get_bot_config(session: SessionDep, current_user: UsersModel = Depends(get_current_user)):
+@router.get("/bot-config")
+async def get_bot_config(
+    session: SessionDep, 
+    current_user: UsersModel = Depends(get_current_user)
+):
     if current_user.role != "admin":
         raise HTTPException(status_code=403, detail="Доступ только для администраторов")
     
     try:
-        config = await session.get(BotConfig, 1)
-        if not config:
-            raise HTTPException(status_code=404, detail="Конфигурация не найдена")
+        from src.models.bot_config import BotConfig
+        import json
         
-        blocks = json.loads(config.blocks) if config.blocks else []
+        result = await session.execute(select(BotConfig).where(BotConfig.id == 1))
+        config = result.scalar_one_or_none()
+        
+        if not config:
+            config = BotConfig(id=1, blocks=json.dumps([]))
+            session.add(config)
+            await session.commit()
+            await session.refresh(config)
+        
+        blocks_data = json.loads(config.blocks) if config.blocks else []
+
         return {
             "id": config.id,
-            "blocks": blocks,
+            "blocks": blocks_data,
             "updated_at": config.updated_at.isoformat() if config.updated_at else None
         }
+        
     except Exception as e:
+        print(f"Error in get_bot_config: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 class BotConfigUpdate(BaseModel):

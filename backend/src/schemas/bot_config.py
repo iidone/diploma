@@ -1,10 +1,11 @@
 from pydantic import BaseModel, ConfigDict
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from datetime import datetime
 
 class BotBlock(BaseModel):
     type: str
     content: str
+    category: Optional[str] = "rules"
 
 class BotConfigBase(BaseModel):
     blocks: List[BotBlock]

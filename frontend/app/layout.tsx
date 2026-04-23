@@ -1,11 +1,12 @@
+// layout.tsx
 import type { Metadata } from "next";
 import "./globals.css";
 import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
 import { ScrollToTop } from "@/components/ScrollToTop";
-import { AuthButton } from "@/components/AuthButton";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { ChatWidget } from "@/components/ChatWidget";
+import Header from "./Header";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,39 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <AuthProvider>
-          <header className="bg-slate-950 h-16 flex items-center justify-center gap-0 px-4 select-none">
-
-            <Link href="/#" className="group transition-colors duration-300">
-              <div className="flex items-center gap-0 px-4">
-                <h1 className="font-bold text-slate-400 text-xl tracking-wider uppercase transition-colors duration-300 group-hover:text-slate-500">
-                  CRAFT
-                </h1>
-                <h1 className="font-bold text-white text-xl tracking-wider uppercase transition-colors duration-300 group-hover:text-slate-300">
-                  SIGNS
-                </h1>
-              </div>
-            </Link>
-
-            <Link href="/#welcome" className="mx-4 hover:text-slate-300 transition-colors">
-              ГЛАВНАЯ
-            </Link>
-            <Link href="/#portfolio" className="mx-4 hover:text-slate-300 transition-colors">
-              НАШИ РАБОТЫ
-            </Link>
-            <Link href="/#services" className="mx-4 hover:text-slate-300 transition-colors">
-              УСЛУГИ
-            </Link>
-            <Link href="/#contacts" className="mx-4 hover:text-slate-300 transition-colors">
-              КОНТАКТЫ
-            </Link>
-            <Link href="/#delivery" className="mx-4 hover:text-slate-300 transition-colors">
-              ДОСТАВКА
-            </Link>
-            <Link href="/#ie" className="mx-4 hover:text-slate-300 transition-colors">
-              ИП ВИСТЯКОВ Д. Г.
-            </Link>
-            <AuthButton />
-          </header>
+          <Header />
           {children}
           <ScrollToTop />
           <ChatWidget />
